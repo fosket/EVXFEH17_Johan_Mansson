@@ -1,0 +1,178 @@
+*{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:white;
+}
+
+/*----------------------------------MENY--------------------------*/
+.nav-container{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.nav-container li{
+    text-align: center;
+    display:block;
+    background-color: grey;
+    width:100%;
+    height:2em;
+    line-height: 2em;
+    margin:0;
+    border: 1px solid black;
+
+}
+.undermeny{
+    display:none;
+}
+
+
+
+
+
+/*-----------------------------------CHECKBOX-------------------------*/
+.checkbox{
+    display:none;
+}
+#meny1checkbox:checked .undermeny{
+    display: block;
+}
+
+
+
+
+
+
+/*---------------------------------------MAIN----------------------------*/
+.main{
+    margin: 3%;
+    align-content: space-between;
+    
+}
+
+
+
+
+/*-----------------------------------ARTICLES--------------------------*/
+
+
+.article-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header p{
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.article-figure{
+    display:flex;
+    margin-bottom: 2em;
+}
+.knappen{
+    background-color: #084FFF;
+    height:1.5em;
+    line-height:1.5em;
+    color:white;
+    font-size: 400%;
+    text-align: center;
+    border-radius: 5px;
+}
+.main article:first-of-type{
+    background-color: #FB7373;
+    padding:2em;
+}
+
+.main article:first-of-type + article{
+    background-color: #FCC052;
+    padding:2em;
+}
+
+
+.main article:first-of-type + article + article{
+    background-color: #FF9EFF;
+    padding:2em;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+/*----------------------------------------------BREAKPOINT----------------------------------------------------------*/
+@media screen and (min-width: 816px){
+/*----------------------------------------------BREAKPOINT----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/*------------------------------------------------NAV-----------------------------------*/
+
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+    .nav-container li{
+        text-align: center;
+        display:block;
+        background-color: grey;
+        width:100%;
+        height:2em;
+        line-height: 2em;
+        margin:0;
+        border: 1px solid black;
+    
+    }
+    .undermeny{
+        display:none;
+    }
+    
+
+
+/*----------------------------------------------ARTICLE-----------------------------------*/
+
+.main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: grey;
+}
+
+
+
+
+.article{
+width: 50%;
+
+}
+
+.xl-article{
+min-width: 100%;
+
+}
+
+
+
+}   /*--------------------------------------------------@media sluttagg*/
