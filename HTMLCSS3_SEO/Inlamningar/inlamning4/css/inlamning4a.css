@@ -58,7 +58,12 @@ body{
 
 
 /*-----------------------------------ARTICLES--------------------------*/
-
+article{
+    padding: 2%;
+    margin-bottom: 2%;
+    display:flex;
+    flex-direction: column;
+}
 
 .article-container{
     display:flex;
@@ -84,20 +89,17 @@ header p{
     text-align: center;
     border-radius: 5px;
 }
-.main article:first-of-type{
+.main article:nth-of-type(1n){
     background-color: #FB7373;
-    padding:2em;
 }
 
-.main article:first-of-type + article{
+.main article:nth-of-type(2n){
     background-color: #FCC052;
-    padding:2em;
 }
 
 
-.main article:first-of-type + article + article{
+.main article:nth-of-type(3n){
     background-color: #FF9EFF;
-    padding:2em;
 }
     
 
@@ -119,7 +121,10 @@ header p{
 @media screen and (min-width: 816px){
 /*----------------------------------------------BREAKPOINT----------------------------------------------------------*/
 
-
+/*----------------------------------------------BODY-----------------------------------------------------------*/
+body{
+    margin: 10%;
+}
 
 
 
@@ -157,21 +162,21 @@ header p{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: grey;
-}
-
-
-
-
-.article{
-width: 50%;
+    justify-content: space-between;
 
 }
 
-.xl-article{
-min-width: 100%;
-
+article{
+    width:45%;
+    justify-content: space-between;
 }
+
+
+.main article:nth-of-type(3n){
+    width:100%;
+}
+
+
 
 
 
