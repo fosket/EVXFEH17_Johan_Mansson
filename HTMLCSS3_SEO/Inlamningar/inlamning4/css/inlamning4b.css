@@ -1,0 +1,318 @@
+*{
+    font-family: 'Merriweather', serif;
+    list-style: none;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+
+}
+body{
+    background-color:white;
+}
+.container{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---------------------------------------------HEADER--------------------------------------*/
+
+#header{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+/*--------------------------------------------ICONS----------------------------------------*/
+
+
+#header i:nth-child(1){
+    color: red;
+}
+
+#header i:nth-child(2){
+    color: #6767E6;
+}
+
+#header i:nth-child(3){
+    color: brown;
+}
+
+#header i:nth-child(4){
+    color:blue;
+}
+/*---------------------------------------------MENY----------------------------------------*/
+nav{
+    width:95%;
+    height:100%;
+    text-align: center;
+}
+
+.nav-container li{
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav-container a{
+    color:white;
+}
+
+.nav-container i{
+    color: #000000;
+}
+
+.nav-container li:nth-child(1){
+    background-color: orange;
+}
+.nav-container li:nth-child(2){
+    background-color: #17C0DA;
+}
+.nav-container li:nth-child(3){
+    background-color: #1A8A9B;
+}
+.nav-container li:nth-child(4){
+    background-color: #403DFC;
+}
+.nav-container li:nth-child(5){
+    background-color: #1B47E6;
+}
+.nav-container li:nth-child(6){
+    background-color:#0C4196;
+}
+
+/*---------------------------------------MAIN----------------------------*/
+.main{
+    margin: 3%;
+    align-content: space-between;
+    
+}
+.mainText{
+    margin: 20px;  
+    margin-left: 0; 
+}
+
+.mainTextTitel{
+    display: flex;
+    align-items: baseline;
+}
+.mainTextTitel h1{
+    margin-right: 10px;
+}
+
+
+
+
+/*-----------------------------------ARTICLES--------------------------*/
+article{
+    padding: 2%;
+    margin-bottom: 2%;
+    display:flex;
+    flex-direction: column;
+}
+
+.article-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.articleHeader p{
+    font-size: 120%;
+    font-weight: 700;
+}
+
+.article-figure img{
+    margin-bottom: 1em;
+    max-height: 120px;
+}
+.knappen{
+    background-color: #084FFF;
+    height:1.5em;
+    line-height:1.5em;
+    margin-top: 1em;
+    color:white;
+    font-size: 200%;
+    text-align: center;
+    border-radius: 5px;
+}
+.main article:nth-of-type(1n){
+    background-color: #FB7373;
+}
+
+.main article:nth-of-type(2n){
+    background-color: #FCC052;
+}
+
+
+.main article:nth-of-type(3n){
+    background-color: #FF9EFF;
+}
+
+.box{
+    background-color: grey;
+}
+
+
+
+/*----------------------------------------------BREAKPOINT----------------------------------------------------------*/
+@media screen and (min-width: 816px){ /*----------------------------------------------BREAKPOINT----------------------------------------------------------*/
+    
+/*-------------------------------------------------BODY-------------------------------------------------------------*/
+    body{
+        margin:auto;
+    }
+
+.container{
+    display: flex;
+}
+    /*----------------------------------------------HEADER--------------------------------------*/
+.topHeader{
+    display:flex;
+    width:100%;
+    justify-content: flex-end;
+    padding:1em;
+    margin-right: 6em;
+}
+
+.topHeader i{
+    padding-right: 0.2em;
+    font-size: 1.5em;
+}
+
+    /*----------------------------------------------MENY--------------------------------------*/
+   nav{
+       display:flex;
+       flex-direction: row-reverse;
+       flex-basis: 100%;       
+       margin-right: 1em;
+   }
+   
+    .nav-container{
+        display: flex;
+        flex-direction: row;
+        width:50%;
+
+    }
+
+
+    .nav-container li{
+        display:flex;
+        text-align: center;
+        display:block;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width: 3em;
+        height:2.5em;
+        line-height: 2.5em;
+        margin:0;
+        flex-wrap: nowrap;
+    }
+
+    .nav-container li:nth-child(1){ 
+        flex-grow: 3;
+    }
+    .nav-container li:nth-child(2){
+        flex-grow: 1;
+    }
+    .nav-container li:nth-child(3){
+        flex-grow: 1;
+    }
+    .nav-container li:nth-child(4){
+        flex-grow: 1;
+    }
+    .nav-container li:nth-child(5){
+        flex-grow: 1;
+    }
+    .nav-container li:nth-child(6){
+        flex-grow: 1;
+    }
+
+    .search-form{
+        order: 2;
+    }
+    input[type=search]{
+        width: 70%;
+    }
+    
+    /*----------------------------------------------MAIN-----------------------------------*/
+
+    .main{ 
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: flex-end;
+        border-style: solid;
+        border-top-color: #535353;
+        border-right: 0;
+        border-left: 0;
+        border-bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
+    }
+    .mainContent{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width:70%;   
+    }
+
+    .mainText{
+        margin-left: 0;
+    }
+    .mainTextTitel{
+        margin-bottom: 1em;
+    }
+    
+/*----------------------------------------------ARTICLE-----------------------------------*/
+    .main article:nth-of-type(3n){
+        width:100%;
+    }
+
+
+    article{
+        display:flex;
+        flex-direction: column;
+        width:45%;
+    }
+
+    #articleText{
+        flex-grow: 1;
+    }
+/*-----------------------------------------Sista Paragrafen-----------------------------*/
+.sistaParagrafen{
+    border-style: solid;
+    border-top-color: #535353;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.sistaParagrafen p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/*----------------------------------------------ASIDE-----------------------------------*/
+    aside{
+        display:flex;
+        order:-1;
+        width: 100%;
+    }
+    .box{ 
+        display: inline-block;
+        position: absolute;
+        left:0;
+        width:29%;
+        height: 100%;
+    }
+    .box h2{
+        margin-left: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .box p{
+        margin-left: 0.5em;
+    }
