@@ -2,6 +2,21 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Merriweather+Sans);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
+header {
+  background-color: gray;
+  margin: 0;
+  padding: 0; }
+  header h1 {
+    color: red; }
+  header a {
+    text-decoration: none;
+    color: red; }
+    header a:hover {
+      color: green; }
+
+li {
+  list-style-type: none; }
+
 .testing {
   width: 71.42857%;
   background: red; }
