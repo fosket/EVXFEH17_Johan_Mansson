@@ -1,0 +1,4 @@
+.buttons{
+    @extend %btn;
+    @include button-bg(white)
+}

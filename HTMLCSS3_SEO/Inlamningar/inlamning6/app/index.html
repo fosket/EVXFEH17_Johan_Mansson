@@ -16,28 +16,116 @@
   <H1>touch.</H1>
   </div> 
 
-
-  <input type="checkbox" id="nav-toggle">
-
   <div id="wrapper">
-  <nav>
+ <nav role="navigation" id="nav">
+  <input class="trigger" type="checkbox" id="mainNavButton">
+  <label for="mainNavButton" class="menu" onclick>Menu</label>
+   <ul>
+     <li><a href="#">Hem</a></li>
+     <li class="submenu"><a href="#" title="Våran produktsortiment">Produkter</a>
+       <ul class="megamenu">
+         <ul>
+           <h4>Arbetsminne</h4>
+           <li><a href="#">DDR</a></li>
+           <li><a href="#">DDR2</a></li>
+           <li><a href="#">DDR3</a></li>
+           <li><a href="#">DDR4</a></li>
+           <li><a href="#">Notebooks</a></li>
+           <li><a href="#">Andra minnen</a></li>
+         </ul>
+         <ul>
+           <h4>Hårddiskar</h4>
+           <li><a href="#">Interna hårddiskar</a></li>
+           <li><a href="#">Extern hårddiskar </a></li>
+           <li><a href="#">SSD (Solid State Drive)</a></li>
+         </ul>
+         <ul>
+           <h4>Chassin & Nätaggregat</h4>
+           <li><a href="#">PC-chassin</a></li>
+           <li><a href="#">Hårddisk chassin</a></li>
+           <li><a href="#">Nätaggregat</a></li>
+           <li><a href="#">Kylning</a></li>
+           <li><a href="#">Tillbehör</a></li>
+         </ul>
+         <ul>
+           <h4>Grafikkort</h4>
+           <li><a href="#">AMD</a></li>
+           <li><a href="#">Nvidia</a></li>
+           <li><a href="#">Andra</a></li>
+           <li><a href="#">Kylning</a></li>
+           <li><a href="#">Tillbehör</a></li>
+         </ul>
+         <ul>
+           <h4>Enheter</h4>
+           <li><a href="#">Diskett enheter</a></li>
+           <li><a href="#">DVD</a></li>
+           <li><a href="#">Bluray</a></li>
+           <li><a href="#">Bandspelare</a></li>
+         </ul>
+         <ul>
+           <h4>Processor</h4>
+           <li><a href="#">AMD</a></li>
+           <li><a href="#">Intel</a></li>
+           <li><a href="#">Andra</a></li>
+           <li><a href="#">Kylning</a></li>
+           <li><a href="#">Tillbehör</a></li>
+         </ul>
 
-  <label for="nav-toggle">Meny</label>
+         <ul>
+           <h4>Nätverk</h4>
+           <li><a href="#">Hubbar und Switchar</a></li>
+           <li><a href="#">Router</a></li>
+           <li><a href="#">Firewalls</a></li>
+           <li><a href="#">Powerline</a></li>
+           <li><a href="#">Kabel</a></li>
+         </ul>
 
-  <ul>                                
-      <li><a href="#">Work</a>
-          <ul>
-              <li><a href="#">Digital</a></li>
-              <li><a href="#">Identity</a></li>
-              <li><a href="#">Print</li>
-          </ul>
-      </li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">News</a></li>
-      <li><a href="#">Contact</a></li>
-  </ul>
+         <ul>
+         <h4>Nyhetsbrev</h4>
+         <form >
 
-  </nav>
+     <ul class="flex-form">
+
+         <li>
+         <label  for="first-name" class="form-label">First Name</label>
+         <input type="text" id="first-name" placeholder="Enter your first name here">
+         </li>
+         <li>
+         <label  for="last-name" class="form-label">Last Name</label>
+         <input type="text" id="last-name" placeholder="Enter your last name here">
+         </li>
+         <li>
+         <label  for="email" class="form-label">Email</label>
+         <input type="email" id="email" placeholder="Enter your email here">
+         </li>
+         <li>
+         <label  for="phone" class="form-label">Phone</label>
+         <input type="tel" id="phone" placeholder="Enter your phone nr here">
+         </li>
+         <!--<li>
+         <label  for="message" class="form-label">Message</label>
+         <textarea id="message" rows="6" placeholder="Enter your message here"> </textarea>
+         </li>-->
+         <li><button type="submit">Submit</button></li>
+
+     </ul>
+
+ </form>	
+         </ul>
+
+       </ul>
+     </li>
+     <li><a href="#">Om oss</a></li>
+     <li><a href="#">Kontakt</a></li>
+     <li><a href="#">Avtryck</a></li>
+     <li><i class="fa fa-thumbs-up" aria-hidden="true"></i>&nbsp; 4</li>
+   <li><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp; 9</li>
+ </ul>
+
+
+
+ </nav>
+    </div>  
   </header>
 
 

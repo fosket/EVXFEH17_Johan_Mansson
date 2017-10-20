@@ -1,2 +1,14 @@
+header{
+    background-color: map-get($color, main)
+}
+
+header{
+    @include respond-to (large)
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
 
 
+
+    }
