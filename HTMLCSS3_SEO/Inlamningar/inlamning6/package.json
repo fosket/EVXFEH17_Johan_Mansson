@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mig-25/evxfeh17_html_tenta.git"
+    "url": "https://github.com/fosket/EVXFEH17_Johan_Mansson"
   },
   "keywords": [
     "tenta",
     "html",
     "css"
   ],
-  "author": "Sohail Hasware <saab.viggen@live.se>",
+  "author": "Johan Mansson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mig-25/evxfeh17_html_tenta/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/mig-25/evxfeh17_html_tenta#readme",
+  "homepage": "",
   "dependencies": {
     "browser-sync": "2.18.13",
     "del": "3.0.0",
