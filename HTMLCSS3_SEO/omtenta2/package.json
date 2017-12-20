@@ -1,0 +1,19 @@
+{
+  "name": "omtenta2",
+  "version": "1.0.0",
+  "description": "omtenta2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fosket/EVXFEH17_Johan_Mansson.git"
+  },
+  "author": "Johan Månsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fosket/EVXFEH17_Johan_Mansson/issues"
+  },
+  "homepage": "https://github.com/fosket/EVXFEH17_Johan_Mansson#readme"
+}
