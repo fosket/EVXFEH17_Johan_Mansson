@@ -1,0 +1,140 @@
+
+main{
+
+    .main-grid{
+        margin: 2vw 0 2vw 0;
+    
+    div:nth-child(1){
+        background-color: hsl(337, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(2){
+        background-color: hsl(317, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(3){
+        background-color: hsl(297, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(4){
+        background-color: hsl(277, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(5){
+        background-color: hsl(257, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(6){
+        background-color: hsl(237, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(7){
+        background-color: hsl(217, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(8){
+        background-color: hsl(197, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(9){
+        background-color: hsl(177, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(10){
+        background-color: hsl(157, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(11){
+        background-color: hsl(137, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+    div:nth-child(12){
+        background-color: hsl(137, 61%, 49%);
+        color: white;
+        padding: 1.5vh;
+    }
+}
+}
+
+@include respond-to('small'){
+    main{
+    .main-grid{
+    div:nth-child(1){
+        background-color: hsl(337, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(2){
+        background-color: hsl(317, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(3){
+        background-color: hsl(297, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(4){
+        background-color: hsl(277, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(5){
+        background-color: hsl(257, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(6){
+        background-color: hsl(237, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(7){
+        background-color: hsl(217, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(8){
+        background-color: hsl(197, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(9){
+        background-color: hsl(177, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(10){
+        background-color: hsl(157, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(11){
+        background-color: hsl(137, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    div:nth-child(12){
+        background-color: hsl(137, 61%, 49%);
+        color: white;
+        padding: 5vh;
+    }
+    }
+}
+}
+
+
+
+
+
