@@ -13,20 +13,16 @@ html {
 
 // set upp body color
 body{
-  color: map-get($color, bright);
-  background: map-get($color, accent1);
-  @include page-bg ('../images/beaver.jpg');
+  @include page-bg ('../images/background.jpg');
 }
 
 body a:link{
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  height: auto;		
+li {
+  list-style: none;
 }
-
 
 
 

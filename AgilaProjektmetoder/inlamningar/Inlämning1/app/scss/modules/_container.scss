@@ -1,0 +1,12 @@
+.workouts {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 0;
+    padding: 0;
+    grid-gap: 2em;
+    margin-top: 3em;
+    
+    a:hover {
+        opacity: 0.5;
+    }
+}
